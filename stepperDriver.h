@@ -43,7 +43,7 @@ TMC2130Stepper driver = TMC2130Stepper(CS_PIN);
 
 // 20.74s per rotation (measured):
 // unsigned int delayCount = 1500; //6452; //round(50000/reductionRatio);
-unsigned int delayCount = 5000;
+unsigned int delayCount = 3000;
 
 unsigned int TCNT1_PRESET = 0Xffff - delayCount;
 
